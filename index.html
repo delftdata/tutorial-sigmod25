@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Transactional Cloud Applications: Status Quo, Challenges, and Opportunities</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Transactional Cloud Applications: Status Quo, Challenges, and Opportunities</h1>
+    <p class="subtitle">A SIGMOD 2025 Tutorial</p>
+    <p class="authors">Rodrigo Laigner, George Christodoulou, Kyriakos Psarakis, Asterios Katsifodimos, Yongluan Zhou</p>
+  </header>
+
+  <nav>
+    <a href="#abstract">Abstract</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#materials">Materials</a>
+    <a href="#bio">Speaker Bios</a>
+  </nav>
+
+  <main>
+    <section id="abstract">
+      <h2>Abstract</h2>
+      <p>Transactional cloud applications such as payment, booking, reservation systems, and complex business workflows are currently being rewritten for deployment in the cloud. This migration to the cloud is happening mainly for reasons of cost and scalability. Over the years, application developers have used different migration approaches, such as microservice frameworks, actors, and stateful dataflow systems.
+The migration to the cloud has brought back data management challenges traditionally handled by database management systems. Those challenges include ensuring state consistency, maintaining durability, and managing the application lifecycle. At the same time, the shift to a distributed computing infrastructure introduced new issues, such as message delivery, task scheduling, containerization, and (auto)scaling.
+Although the data management community has made progress in developing analytical and transactional database systems, transactional cloud applications have received little attention in database research. This tutorial aims to highlight recent trends in the area and discusses open research challenges for the data management community.</p>
+    </section>
+
+<section id="schedule">
+  <h2>Schedule</h2>
+
+  <p><strong>Time:</strong> Friday, 27.06.2025, 9:00 – 12:30</p>
+  <p><strong>Location:</strong> Intercontinental Berlin Schöneberg I/II/III</p>
+
+  <h3>Part 1 (9:00 – 10:30)</h3>
+  <ul>
+    <li>09:00 – 09:35: Introduction</li>
+    <li>09:35 – 09:45: Short Break</li>
+    <li>09:45 – 10:30: Programming Models</li>
+    <li>10:30 – 11:00: Conference Break</li>
+  </ul>
+
+  <h3>Part 2 (11:00 – 12:30)</h3>
+  <ul>
+    <li>11:00 – 11:35: Runtimes & Systems</li>
+    <li>11:35 – 11:45: Short Break</li>
+    <li>11:45 – 12:10: Benchmarks</li>
+    <li>12:10 – 12:30: Open Problems & Outlook</li>
+  </ul>
+</section>
+
+    <section id="materials">
+  <h2>Materials</h2>
+  <ul>
+    <li>
+      <strong>Paper:</strong>
+      <a href="https://arxiv.org/abs/2504.17106" target="_blank" rel="noopener noreferrer">
+        Transactional Cloud Applications: Status Quo, Challenges, and Opportunities
+      </a>
+    </li>
+    <li>
+      Slides will be posted closer to the tutorial date.
+    </li>
+  </ul>
+</section>
+
+    <section id="bio">
+  <h2>Speaker Bios</h2>
+
+  <div class="speaker">
+    <img src="images/rodrigo.webp" alt="Rodrigo Laigner" class="speaker-photo" />
+    <div  class="speaker-text">
+      <h3> <a href="https://rnlaigner.github.io/" target="_blank" rel="noopener noreferrer"> Rodrigo Laigner</a></h3>
+      <p>Rodrigo is a PhD Fellow at the University of Copenhagen. His
+        research lies on devising effective programming abstractions and
+        efficient systems for emerging data-intensive applications. During
+        his doctoral studies, he published relevant articles about distributed
+        data-intensive applications.</p>
+    </div>
+  </div>
+
+  <div class="speaker">
+    <img src="images/george.webp" alt="George Christodoulou" class="speaker-photo" />
+    <div  class="speaker-text">
+      <h3> <a href="https://giorgoschristodoulou.github.io/" target="_blank" rel="noopener noreferrer">George Christodoulou</a></h3>
+      <p>George is a Postdoctoral Researcher at TU Delft. His research
+        centers around indexing, as well as scalable and efficient data management with a particular emphasis on stream processing and
+        distributed systems.</p>
+    </div>
+  </div>
+
+  <div class="speaker">
+    <img src="images/kyriakos.webp" alt="Kyriakos Psarakis" class="speaker-photo" />
+    <div  class="speaker-text">
+      <h3><a href="https://kpsarakis.com/" target="_blank" rel="noopener noreferrer">Kyriakos Psarakis</a></h3>
+      <p>Kyriakos is a PhD candidate at TU Delft building systems for scalable cloud applications. This includes Styx, a deterministic
+        transactional dataflow system that offers a Stateful-FaaS API for creating scalable cloud applications.</p>
+    </div>
+  </div>
+      <div class="speaker">
+    <img src="images/asterios.webp" alt="Asterios Katsifodimos" class="speaker-photo" />
+    <div  class="speaker-text">
+      <h3><a href="https://asterios.katsifodimos.com/" target="_blank" rel="noopener noreferrer">Asterios Katsifodimos</a></h3>
+      <p>Asterios is an Asst. Professor at TU Delft, working on scalable
+        data management, focusing on cloud application runtimes, stream
+        processing, and data integration. Asterios is one of the receivers of
+        the ACM SIGMOD Systems award in 2023.</p>
+    </div>
+  </div>
+      <div class="speaker">
+    <img src="images/yongluan.webp" alt="Yongluan Zhou" class="speaker-photo" />
+    <div  class="speaker-text">
+      <h3><a href="https://ylzhou.github.io/" target="_blank" rel="noopener noreferrer">Yongluan Zhou</a></h3>
+      <p>Yongluan is a Professor at the University of Copenhagen. His
+        research interests span database and distributed systems, with his
+        recent focus on scalable event-driven systems. He has authored
+        over 80 peer-reviewed research articles in international journals
+        and conference proceedings</p>
+    </div>
+  </div>
+</section>
+  </main>
+
+  <footer>
+  <div class="footer-logos">
+    <img src="images/copenhagen.svg" alt="University of Copenhagen" />
+    <img src="images/delft.png" alt="TU Delft" />
+  </div>
+</footer>
+</body>
+</html>

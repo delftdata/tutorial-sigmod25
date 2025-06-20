@@ -1,0 +1,124 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #fdfdfd;
+  color: #333;
+}
+
+header {
+  background: #005b96;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-top: 0.2rem;
+}
+
+.authors {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  color: #ddd;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background: #e6f0ff;
+  padding: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #005b96;
+  font-weight: bold;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #f0f0f0;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.speaker {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.speaker-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.speaker-text h3 {
+  margin: 0 0 0.5rem;
+}
+
+.speaker-text p {
+  margin: 0;
+}
+
+.speaker-text h3 a {
+  color: #005b96;
+  text-decoration: none;
+}
+
+.speaker-text h3 a:hover {
+  text-decoration: underline;
+}
+
+.footer-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  background: #f0f0f0;
+}
+
+.footer-logos img {
+  height: 40px;
+  max-width: 120px;
+  object-fit: contain;
+}
+
+
+#materials a {
+  color: #005b96;
+  text-decoration: none;
+}
+
+#materials a:hover {
+  text-decoration: underline;
+}
+
+#schedule ul {
+  padding-left: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+#schedule li {
+  margin-bottom: 0.3rem;
+}
